@@ -1,0 +1,5 @@
+cidr_block = "10.50.0.0/16"
+vpc_name = "chandra-vpc"
+cidr_block_publicsubnets = ["10.50.1.0/24","10.50.2.0/24","10.50.3.0/24"]
+azs = ["us-east-1a","us-east-1b","us-east-1c"]
+cidr_block_privatesubnets = ["10.50.5.0/24","10.50.7.0/24","10.50.9.0/24"]
